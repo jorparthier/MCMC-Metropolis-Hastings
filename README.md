@@ -1,6 +1,7 @@
 # MCMC-Metropolis-Hastings-Entschlüsselung
 Im Folgenden wird der MCMC-Metropolis-Hastings-Algorithmus mit Anwendung auf die einfache Substitutionschiffre mit 26 Kleinbuchstaben des Alphabets erläutert.
-```class Distribution(dict):
+```
+class Distribution(dict):
     
     def __init__(self):
         self.clear()

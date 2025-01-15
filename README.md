@@ -12,7 +12,7 @@ Im Folgenden wird der MCMC-Metropolis-Hastings-Algorithmus mit Anwendung auf die
     def __setitem__(self, key, value):
         self._total += value - self.get(key, 0)
         super().__setitem__(key, value)
-
+```
 Die Klasse Distribution initialisiert die Klasse „Distribution“ als spezielle Form des Dictionaries. Dieses Dictionary wird gereinigt und die Elemente werden auf null gesetzt. Ferner wird für missing key immer null ausgegeben.
 
 def_setitem

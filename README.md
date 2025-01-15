@@ -15,10 +15,10 @@ Im Folgenden wird der MCMC-Metropolis-Hastings-Algorithmus mit Anwendung auf die
 ```
 Die Klasse Distribution initialisiert die Klasse „Distribution“ als spezielle Form des Dictionaries. Dieses Dictionary wird gereinigt und die Elemente werden auf null gesetzt. Ferner wird für missing key immer null ausgegeben.
 
-def_setitem
+- def_setitem
 self._total interner Zähler wird aktuallisiert , dieser Zähler beinhaltet die Summe aller Werte in dem Dictionary
 
-super().__setitem__(key, value)
+- super().__setitem__(key, value)
 benutzt stdandard methode_setItem_ der Basisklasse dict, um Schlüssel-Wertpaar im Dictionary zu speichen.
 
 
